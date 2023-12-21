@@ -1,0 +1,12 @@
+.container {
+  display: flex;
+  flex-direction: row;
+  font-size: 36px;
+
+
+  .page {
+    width: 90%; 
+    height: 100vh;
+    background: #7EA0C5;
+  }
+}

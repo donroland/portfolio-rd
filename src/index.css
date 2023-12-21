@@ -1,13 +1,23 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+/* Color Theme Swatches in Hex 
+.Primary-&-Secondary-Colors-1-hex { color: #0D499C; } blue 
+.Primary-&-Secondary-Colors-2-hex { color: #EF6B00; } orange
+.Primary-&-Secondary-Colors-3-hex { color: #7EA0C5; } ocean
+.Primary-&-Secondary-Colors-4-hex { color: #7F80AD; } gray
+.Primary-&-Secondary-Colors-5-hex { color: #FFFFFF; } white
+
+*/ 
+
+html {
+  font-size: 62.5%;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+  color: #444;
+  background: #fff;
+  overflow: hidden;
+  /*display: flex;*/
 }
