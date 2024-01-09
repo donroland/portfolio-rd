@@ -7,8 +7,9 @@ const Layout = () => {
     <div className="container">
       <Sidebar />
       <div className='page'>
+        
         <Outlet />
-        <p>Lorem lorem lorem</p>
+
       </div>
     </div>
   )

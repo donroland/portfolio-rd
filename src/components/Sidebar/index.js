@@ -37,7 +37,7 @@ const Sidebar = () => {
 
         {/*About */}
         <NavLink
-        
+
           activedlassname="active"
           className="about-link"
           to="/about"
@@ -64,37 +64,37 @@ const Sidebar = () => {
         </NavLink>
       </nav>
       <div className='socials'>
-      <ul>
-        <li>
-          <a
-            target="_blank"
-            rel="noreferrer"
-            href="https://www.linkedin.com/in/roland-dondera-b4845319b/"
-          >
-            <FontAwesomeIcon icon={faLinkedin} color="#4d4d4e" />
-          </a>
-        </li>
+        <ul>
+          <li>
+            <a
+              target="_blank"
+              rel="noreferrer"
+              href="https://www.linkedin.com/in/roland-dondera-b4845319b/"
+            >
+              <FontAwesomeIcon icon={faLinkedin} color="#0D499C" />
+            </a>
+          </li>
 
-        <li>
-          <a
-            target="_blank"
-            rel="noreferrer"
-            href="https://github.com/donroland"
-          >
-            <FontAwesomeIcon icon={faGithub} color="#4d4d4e" />
-          </a>
-        </li>
+          <li>
+            <a
+              target="_blank"
+              rel="noreferrer"
+              href="https://github.com/donroland"
+            >
+              <FontAwesomeIcon icon={faGithub} color="#0D499C" />
+            </a>
+          </li>
 
-        <li>
-          <a
-            target="_blank"
-            rel="noreferrer"
-            href="https://www.instagram.com/dondiir/"
-          >
-            <FontAwesomeIcon icon={faInstagram} color="#4d4d4e" />
-          </a>
-        </li>
-      </ul>
+          <li>
+            <a
+              target="_blank"
+              rel="noreferrer"
+              href="https://www.instagram.com/dondiir/"
+            >
+              <FontAwesomeIcon icon={faInstagram} color="#0D499C" />
+            </a>
+          </li>
+        </ul>
       </div>
     </div>
   )
